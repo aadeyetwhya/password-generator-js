@@ -1,0 +1,67 @@
+* {
+    color: white;
+    font-size: 20px;
+}
+.card{
+    width: 100%;
+   
+}
+.inputWrapper{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* align-items: center;   Vertically center the elements inside */
+    /* justify-content: center; Horizontally center the input and button */
+    margin-bottom: 15px;
+    
+}
+.passwordBox {
+    height: 50px;
+    width: 335px;
+    border: none;
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+
+}
+
+.checkbox {
+    height: 20px;
+}
+
+.copyBtn {
+    background-color: #2222cc91;
+    border: none;
+    height: 51px;
+    color: white;
+    font-size: 23px;
+
+
+    ;
+    width: 70px;
+    cursor: pointer;
+}
+.btns{
+    display:flex;
+    align-items:start;
+    margin:5px
+}
+.otherBtn {
+    background-color: red;
+    border: none;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    margin:0 3px 0 3px;
+
+
+    ;
+    width: 50px;
+    cursor: pointer;
+    border-radius:4px
+}
+
+.changeLength {
+    cursor: pointer
+}

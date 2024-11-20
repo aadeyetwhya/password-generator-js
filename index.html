@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color:black;color:white">
+    <h1 style="text-align: center;">Password Generator</h1>
+    <br><br>
+    <div class="card">
+        <div class="inputWrapper">
+
+            <div class="passwordSection">
+
+                <input type="text" class="passwordBox" id="password" value="" readonly />
+                <button class="copyBtn" id="copyBtn">Copy</button>
+            </div>
+            <div class="btns">
+                <button class="otherBtn" id="newBtn" style="background-color:white;color:red">New</button>
+                <button class="otherBtn" id="clearBtn">Clear</button>
+
+            </div>
+        </div>
+        <br>
+
+        <div class="controlLength">
+            <input type="range" max=30 min=6 value=6 class="changeLength" id="handleRange">
+            <span>Length: </span><span id="lengthText">6</span>
+        </div><br>
+
+        <div class="controlPassword">
+            <input type="checkbox" id="hangleNumber" value=true id="includeNumbers" class="checkBox"
+                onchange="handleNumber">Include Numbers<br>
+            <input type="checkbox" id="handleSpcCharacter" value=true is="includeSpecialCharaters"
+                class="checkBox">Include special Charaters<br>
+        </div>
+
+    </div>
+    <script src="style.js"></script>
+</body>
+
+</html>
